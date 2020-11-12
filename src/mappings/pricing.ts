@@ -4,9 +4,9 @@ import { BigDecimal, Address, BigInt } from '@graphprotocol/graph-ts/index'
 import { ZERO_BD, factoryContract, ADDRESS_ZERO, ONE_BD } from './helpers'
 
 const WBNB_ADDRESS = '0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c'
-const BUSD_WBNB_PAIR = '0xf2e4E3F9B58b3eDaC88Ad11D689a23f3119a782D'
-const DAI_WBNB_PAIR = '0xed8Ecb790Be568461d85Cf82C386E51124E46a52' 
-const USDT_WBNB_PAIR = '0x0d29724d1834Fc65869812BAe5d63dce8aCB7921' // created block 10093341
+const BUSD_WBNB_PAIR = '0xf2e4e3f9b58b3edac88ad11d689a23f3119a782d'
+const DAI_WBNB_PAIR = '0xed8ecb790be568461d85cf82c386e51124e46a52' 
+const USDT_WBNB_PAIR = '0x0d29724d1834fc65869812bae5d63dce8acb7921' // created block 10093341
 
 // dummy for testing
 export function getBnbPriceInUSD(): BigDecimal {
